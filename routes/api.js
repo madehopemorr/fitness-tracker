@@ -35,6 +35,14 @@ router.get("/api/fitness", (req, res) => {
         });
 });
 
+router.get("/api/fitness/range", (req, res) => {
+    Fitness.find({}).limit(7)
+        .then(dbFitness => {
+            console.log(dbFitness)
+            res.json(dbFitness);
+        });
+});
+
 router.delete("/api/fitness", ({ body }, res) => {
     Fitness.findByIdAndDelete(body.id)
         .then(() => {
