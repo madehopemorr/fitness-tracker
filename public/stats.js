@@ -9,7 +9,7 @@ fetch("/api/workouts/range")
   });
 
 
-API.getWorkoutsInRange()
+API.getFitnessInRange()
 
   function generatePalette() {
     const arr = [
