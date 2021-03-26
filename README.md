@@ -12,7 +12,7 @@ fitness-tracker is an app that allows you to add and track your workouts. The na
 
 ## Installation
 No install required ~ The app can be accessed by clicking this link:
-https://dry-beyond-21627.herokuapp.com/
+https://fitness-app-98737594.herokuapp.com/?id=605385cbe9b20d0015ef41ef
 
 ## Usage
 Upon entering the site for the first time, click 'New Workout'. Then add your exercise by selecting the type, either 'Resistance' or 'Cardio'. Enter in the info into the required fields then select add exercise. If you wish to enter another workout you can either add a new one or select the blue 'Continue Workout' Button. If you go to the stats page you will be able to see all of your previous exercises.
